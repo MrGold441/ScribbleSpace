@@ -1,0 +1,23 @@
+# Node modules
+/node_modules
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build output
+/build
+/dist
+
+# Package lock
+package-lock.json
+
+# IDE/editor folders
+.vscode/
+.idea/
