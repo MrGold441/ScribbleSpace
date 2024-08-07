@@ -1,23 +1,28 @@
-# Node modules
-/node_modules
-
-# Log files
+# Logs
+logs
 *.log
+npm-debug.log*
 
-# Environment variables
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build directories
+dist/
+build/
+
+# Environment files
 .env
+server/.env
 
-# OS-specific files
+# Miscellaneous
 .DS_Store
 Thumbs.db
 
-# Build output
-/build
-/dist
-
-# Package lock
-package-lock.json
-
-# IDE/editor folders
+# IDE specific files
 .vscode/
 .idea/
+
+# NPM package-lock files
+package-lock.json
